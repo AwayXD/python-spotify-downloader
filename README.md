@@ -1,5 +1,3 @@
-Got it! Here's a cleaned-up `README.md` focused **only on exporting Spotify playlists to CSV**, without any YouTube downloading:
-
 ````markdown
 # Spotify Playlist Exporter
 
