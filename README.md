@@ -26,8 +26,6 @@ To use this app, you need to create a Spotify application:
 4. Copy the **Client ID** and **Client Secret**.
 5. Set a **Redirect URI** (e.g., `http://127.0.0.1:9090/callback`) in your app settings. Make sure it matches the one you enter in the program.
 
-## Installation
-
 ### Prerequisites
 
 Make sure you have Python 3.10+ installed. You also need the following Python packages:
@@ -43,15 +41,15 @@ pip install ttkbootstrap spotipy
 
 ### Running the Application
 
-1. Save the Python script as `spotify_playlist_exporter.py`.
+1. download: `exporter.py`.
 2. Run the script:
 
 ```bash
-python spotify_playlist_exporter.py
+python exporter.py
 ```
 
 3. Fill in your Spotify credentials and playlist URL.
-4. Choose the location to save the CSV file.
+4. Choose the location to save the CSV file, and where to save the music.
 
 ## Notes
 
@@ -64,7 +62,4 @@ python spotify_playlist_exporter.py
 feel free to fork how you like!
 -away c:
 
-```
-
-I can also **make a shorter “quick start” version** if you want it to be even simpler for end users. Do you want me to do that?
 ```
